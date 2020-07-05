@@ -1,0 +1,3 @@
+include ':safe-keyboard'
+include ':sample'
+rootProject.name = "SafeKeyboard"

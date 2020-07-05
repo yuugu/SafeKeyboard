@@ -1,0 +1,21 @@
+/**
+ * SDK版本
+ */
+def BUILD_VERSIONS = [:]
+BUILD_VERSIONS.MIN_SDK = 21
+BUILD_VERSIONS.TARGET_SDK = 29
+BUILD_VERSIONS.COMPILE_SDK = 29
+BUILD_VERSIONS.BUILD_TOOLS = "29.0.3"
+BUILD_VERSIONS.VERSION_CODE = 1
+BUILD_VERSIONS.VERSION_NAME = "1.0.0"
+ext.BUILD_VERSIONS = BUILD_VERSIONS
+
+/**
+ * 第三方库版本号版本
+ */
+def versions = [:]
+versions.easypermissions = "1.0.1"
+
+def support = [:]
+support.easypermissions = "pub.devrel:easypermissions:$versions.easypermissions"
+ext.support = support
